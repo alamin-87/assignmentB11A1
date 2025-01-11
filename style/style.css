@@ -507,3 +507,87 @@ a{
     background-color: red;
     transition: all linear .4s;
 }
+
+/* ===================footer================ */
+.footer_row1{
+    background-color: #F1F1F3;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.footer_row1 .form{
+    width: 1280px;
+    height: 395px; 
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer_row1 .form h3{
+    font-family: "Fira Sans", serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #0E0E0E;
+}
+.footer_row1 .form p{
+    width: 622px;
+    font-family: "Fira Sans", serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #0E0E0E;
+    opacity: 70%;
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+.footer_row1 .input_data{
+    display: flex;
+}
+.footer_row1 .input_data input{
+    width: 520px;
+    height: 55px;
+    background-color: white;
+    outline: none;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border: none;
+    font-family: "Fira Sans", serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #0E0E0E;
+    padding-left: 40px;
+}
+.footer_row1 .input_data button{
+    background-color: #006A50;
+    outline: none;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border: none;
+    font-family: "Fira Sans", serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    padding-left: 34px;
+    padding-right: 34px;
+}
+.footer_row2{
+    padding-top: 40px;
+}
+.row2_logo{
+    display: flex;
+    justify-content: center;
+}
+.row2_logo p{
+    font-family: "Fira Sans", serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: #0E0E0E;
+}
+.footer_row2 .row2_icon{
+    display: flex;
+    justify-content: center;
+    gap: 23px;
+    margin-top: 64px;
+    margin-bottom: 50px;
+}
