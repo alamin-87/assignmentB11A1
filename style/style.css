@@ -264,11 +264,12 @@ a{
 }
 .about_yunus{
     background-image: url("../images/coma.png");
-    /* background: no-repeat; */
+    background-repeat: no-repeat;
     background-color: white;
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
-    padding: 48px 24px; margin-top: 32px;
+    padding: 48px 24px; 
+    margin-top: 32px;
 }
 .about_yunus p{
     font-size: 16px;
