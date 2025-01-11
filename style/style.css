@@ -16,12 +16,7 @@ a{
 .container{
     width: 1280px;
     margin: 0 auto;
-    
-    }
-/* .project_head{
-    padding-left: 160px;
-    padding-right: 160px;
-} */
+}
 .project_head{
     background-color: #F1F1F3;
 }
@@ -268,6 +263,8 @@ a{
     transition: all linear .4s;
 }
 .about_yunus{
+    background-image: url("../images/coma.png");
+    /* background: no-repeat; */
     background-color: white;
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
@@ -426,6 +423,87 @@ a{
     color: white;
 }
 .news_card .card_text a:hover{
+    background-color: red;
+    transition: all linear .4s;
+}
+.donate{
+    margin-top: 80px;
+}
+.donate_row1 h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: #0E0E0E;
+    font-family: "Fira Sans", serif; 
+    display: flex;
+    justify-content: center;
+}
+.donate_row1 p{
+    /* width: 1140px; */
+    font-size: 16px;
+    font-weight: 400;
+    color: #0E0E0E;
+    font-family: "Fira Sans", serif; 
+    opacity: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+.donate_row2{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+.donate_row2 .donate_card p{
+    padding: 40px; 
+    background: #fff;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    overflow: hidden;
+    font-size: 40px;
+    font-weight: 700;
+    color: #0E0E0E;
+    font-family: "Fira Sans", serif; 
+    opacity: 80%;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+}
+.donate_row2 .donate_card :hover{
+    background-color: red;
+    transition: all linear .4s;
+}
+.donate_row3{
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+}
+.donate_row3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.donate_row3 input{
+    padding: 20px 385px;
+    background-color: white;
+    outline: none;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.3);
+    font-family: "Fira Sans", serif; 
+}
+.donate_row3 a{
+    padding: 17px 34px;
+    background-color: #006A50;
+    border-radius: 8px;
+    font-family: "Fira Sans", serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    margin-top: 32px;
+}
+.donate_row3 a:hover{
     background-color: red;
     transition: all linear .4s;
 }
