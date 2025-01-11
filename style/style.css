@@ -1,0 +1,345 @@
+/* ===================================== font fira sans================================= */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* ==================================================================================== */
+*{
+    margin: 0;
+    padding: 0;
+}
+ul ,ol{
+    list-style:none ;
+    
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+.container{
+    width: 1280px;
+    margin: 0 auto;
+    
+    }
+/* .project_head{
+    padding-left: 160px;
+    padding-right: 160px;
+} */
+.project_head{
+    background-color: #F1F1F3;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 26px;
+    padding-bottom: 26px;
+}
+.nav p{
+    font-family: "Fira Sans", serif;
+    font-size: 32px;
+    font-weight: bold;
+    color: #0E0E0E;
+}
+.nav a{
+    background-color: transparent;
+    width: 100px;
+    height: 36px;
+    border-radius: 8px;
+    border: 1px solid #006A50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    font-family: "Fira Sans", serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #006A50;
+}
+.nav a:hover{
+    background-color: #006A50;
+    color: white;
+    transition: all linear .4s;
+}
+.hero{
+    width: 1280px;
+    height: 560px;
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+
+}
+.hero_text p{
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Fira Sans", serif;
+    color: #0E0E0E;
+    opacity: 50%;
+}
+.hero_text h1{
+    width: 622px;
+    font-size: 56px;
+    font-weight: 700;
+    font-family: "Fira Sans", serif;
+    color: #0E0E0E;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+.hero_text a{
+    padding: 17px 34px;
+    background-color: #006A50;
+    border-radius: 8px;
+    outline: none;
+    outline-width: 0;
+    font-size: 18px; 
+    font-weight: 600;
+    color: white;
+    font-family: "Fira Sans", serif;
+}
+.hero_text a:hover{
+    background-color: red;
+    transition: all linear .4s;
+}
+.project_body{
+    background-color: #F1F1F3;
+    padding-top: 80px;
+}
+.pillar_card .single_card{
+    padding: 33px 32px 32px 33px;
+    background-color: white;
+    border-radius: 16px;
+  
+}
+.pillar_text p{
+    font-family: "Fira Sans", serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #0E0E0E;
+}
+.pillar_card{
+    margin-top: 32px;
+    display: flex;
+    gap: 24px;
+}
+.pillar_card .single_card h3{
+    font-family: "Fira Sans", serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #0E0E0E;
+    opacity: 80%;
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
+.pillar_card .single_card p{
+    font-family: "Fira Sans", serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #0E0E0E;
+    opacity: 70%;
+}
+.vission{
+    margin-top: 80px;
+}
+.vissinon_text h3{
+    font-family: "Fira Sans", serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #0E0E0E;
+}
+.vissinon_text p{
+    font-family: "Fira Sans", serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #0E0E0E;
+    opacity: 70%;
+    margin-top: 24px; 
+    margin-bottom: 32px;
+}
+.vission_card{
+    display: flex;
+    gap: 24px;
+}
+.vission_card .single_card1{
+    padding: 32px;
+    background-color: rgba(84, 144, 245, 0.2);
+    border-radius: 16px;
+    /* opacity: 20%; */
+}
+.vission_card .single_card1 h3{
+    font-family: "Fira Sans", serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #0E0E0E;
+    opacity: 80%;
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
+.vission_card .single_card1 p{
+    font-family: "Fira Sans", serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #0E0E0E;
+    opacity: 70%;
+    margin-bottom: 24px;
+}
+.vission_card .single_card1 a{
+    padding: 11px 20px;
+    background-color: #5490F5;
+    border-radius: 8px;
+    font-family: "Fira Sans", serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+}
+.vission_card .single_card2{
+    padding: 32px;
+    background-color: #C6E4D6;
+    border-radius: 16px;
+    /* opacity: 20%; */
+}
+.vission_card .single_card2 h3{
+    font-family: "Fira Sans", serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #0E0E0E;
+    opacity: 80%;
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
+.vission_card .single_card2 p{
+    font-family: "Fira Sans", serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #0E0E0E;
+    opacity: 70%;
+    margin-bottom: 24px;
+}
+.vission_card .single_card2 a{
+    padding: 11px 20px;
+    background-color: #09A15C;
+    border-radius: 8px;
+    font-family: "Fira Sans", serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+}
+
+.vission_card .single_card3{
+    padding: 32px;
+    background-color: #F7EBCF;
+    border-radius: 16px;
+    /* opacity: 20%; */
+}
+.vission_card .single_card3 h3{
+    font-family: "Fira Sans", serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #0E0E0E;
+    opacity: 80%;
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
+.vission_card .single_card3 p{
+    font-family: "Fira Sans", serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #0E0E0E;
+    opacity: 70%;
+    margin-bottom: 24px;
+}
+.vission_card .single_card3 a{
+    padding: 11px 20px;
+    background-color: #FFC239;
+    border-radius: 8px;
+    font-family: "Fira Sans", serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+}
+.about_yunus{
+    background-color: white;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    padding: 48px 24px; margin-top: 32px;
+}
+.about_yunus p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #0E0E0E;
+    font-family: "Fira Sans", serif;
+    opacity: 80%;
+}
+.about_yunus h4{
+    font-size: 20px;
+    font-weight: 500;
+    color: #0E0E0E;
+    font-family: "Fira Sans", serif;
+    opacity: 80%;
+    margin-top: 12px;
+    margin-bottom: 4px;
+}
+.about_yunus .last_taxt{
+    font-size: 16px;
+    font-weight: 400;
+    color: #0E0E0E;
+    font-family: "Fira Sans", serif;
+    opacity: 60%;
+}
+
+.body_table{
+    margin-top: 80px;
+}
+.body_table h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: #0E0E0E;
+    font-family: "Fira Sans", serif;
+    margin-bottom: 24px;
+}
+.body_table .table{
+    padding: 32px;
+    background-color: white;
+    border-radius: 16px;
+}
+.fieldset .row1{
+    background-color: #C6E4D6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px;
+}
+.fieldset .row1 p{
+    font-size: 20px;
+    font-weight: 500;
+    color: #0E0E0E;
+    font-family: "Fira Sans", serif;
+}
+.fieldset .row2{
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.row2_text p{
+    font-size: 20px;
+    font-weight: 500;
+    color: #0E0E0E;
+    font-family: "Fira Sans", serif;
+    margin-left: 32px;
+}
+.row2 span{
+    display: block;
+    width: 1px;
+    height: 80px;
+    background-color:rgba(14, 14, 14, 0.15) ;
+}
+.row2 .select{
+    margin-right: 32px;
+    padding: 12px 16px;
+    background-color: #C6E4D6;
+}
+.row2 .select option{
+    font-size: 10px;
+    font-weight: 500;
+    color: #0E0E0E;
+    font-family: "Fira Sans", serif;
+}
